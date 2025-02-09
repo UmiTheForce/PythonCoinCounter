@@ -15,3 +15,11 @@ def pennies():
     """function calculates dollar total of pennies"""
     pTotal = penny / 100
     return float(pTotal)
+
+#variable definitions
+quarter = int(input("How many quarters do you have? "))
+dime = int(input("How many dimes do you have? "))
+nickle = int(input("How many nickles do you have? "))
+penny = int(input("How many pennies do you have? "))
+
+print("You have " + str(quarters()) + " in quarters.")
