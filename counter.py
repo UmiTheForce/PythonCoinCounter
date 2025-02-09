@@ -23,6 +23,7 @@ nickle = int(input("How many nickles do you have? "))
 penny = int(input("How many pennies do you have? "))
 changeTotal = float(quarters() + dimes() + nickles() + pennies())
 
+#print statements
 print("You have " + str(quarters()) + " in quarters.")
 print("You have " + str(nickles()) + " in nickles.")
 print("You have " + str(dimes()) + " in dimes.")
